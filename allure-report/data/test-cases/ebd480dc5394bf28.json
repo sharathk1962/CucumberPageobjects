@@ -1,0 +1,56 @@
+{
+  "uid" : "ebd480dc5394bf28",
+  "name" : "",
+  "fullName" : "Automation practice website registration: As a user, I can log into the secure area.",
+  "historyId" : "857438b7336dd0e4f0ac18eeff2d0eac",
+  "time" : {
+    "start" : 1614865724324,
+    "stop" : 1614865724326,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation practice website registration: As a user, I can log into the secure area"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation practice website registration: As a user, I can log into the secure area"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "Automation practice website registration: As a user, I can log into the secure area"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.72"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ebd480dc5394bf28.json",
+  "parameterValues" : [ "chrome-89.0.4389.72" ]
+}

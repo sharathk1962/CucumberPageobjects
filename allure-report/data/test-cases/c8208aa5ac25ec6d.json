@@ -1,0 +1,181 @@
+{
+  "uid" : "c8208aa5ac25ec6d",
+  "name" : "When I click on search and enter Tshirt",
+  "fullName" : "Adding item to cart and verify: Add items to the cart.When I click on search and enter Tshirt",
+  "historyId" : "4621d39d4f7e7d814ecacaa0ea0fc0bc",
+  "time" : {
+    "start" : 1615020995466,
+    "stop" : 1615020998266,
+    "duration" : 2800
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1615020995472,
+        "stop" : 1615020995525,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "75e9cb53788ce940",
+        "name" : "Request",
+        "source" : "75e9cb53788ce940.json",
+        "type" : "application/json",
+        "size" : 61
+      }, {
+        "uid" : "94a6c14651316d1a",
+        "name" : "Response",
+        "source" : "94a6c14651316d1a.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/a2656505-5902-4c32-a8e0-26980544a546/clear",
+      "time" : {
+        "start" : 1615020995543,
+        "stop" : 1615020995754,
+        "duration" : 211
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/a2656505-5902-4c32-a8e0-26980544a546/value",
+      "time" : {
+        "start" : 1615020995764,
+        "stop" : 1615020995908,
+        "duration" : 144
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c2151eea86571db2",
+        "name" : "Request",
+        "source" : "c2151eea86571db2.json",
+        "type" : "application/json",
+        "size" : 24
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1615020995909,
+        "stop" : 1615020995953,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ae750d7821fca03",
+        "name" : "Request",
+        "source" : "ae750d7821fca03.json",
+        "type" : "application/json",
+        "size" : 80
+      }, {
+        "uid" : "b7184e23cc98e6ba",
+        "name" : "Response",
+        "source" : "b7184e23cc98e6ba.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/3c80b0f2-d449-4781-93b2-e3e4809672be/click",
+      "time" : {
+        "start" : 1615020995962,
+        "stop" : 1615020998265,
+        "duration" : 2303
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Adding item to cart and verify: Add items to the cart"
+  }, {
+    "name" : "testClass",
+    "value" : "Adding item to cart and verify: Add items to the cart"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I click on search and enter Tshirt"
+  }, {
+    "name" : "package",
+    "value" : "Adding item to cart and verify: Add items to the cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.72"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5a1de1ddae758f12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615020541173,
+        "stop" : 1615020543459,
+        "duration" : 2286
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c8208aa5ac25ec6d.json",
+  "parameterValues" : [ "chrome-89.0.4389.72" ]
+}

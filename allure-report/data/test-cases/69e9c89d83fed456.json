@@ -1,0 +1,129 @@
+{
+  "uid" : "69e9c89d83fed456",
+  "name" : "Given I am on the home page",
+  "fullName" : "Automation practice website registration: As a user, I can log into the secure area.Given I am on the home page",
+  "historyId" : "df43be3cbe53cd52830fb544e342555a",
+  "time" : {
+    "start" : 1614875546714,
+    "stop" : 1614875546737,
+    "duration" : 23
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1614875546721,
+        "stop" : 0,
+        "duration" : -1614875546721
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b3037f1992797c8b",
+        "name" : "Request",
+        "source" : "b3037f1992797c8b.json",
+        "type" : "application/json",
+        "size" : 54
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation practice website registration: As a user, I can log into the secure area"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation practice website registration: As a user, I can log into the secure area"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am on the home page"
+  }, {
+    "name" : "package",
+    "value" : "Automation practice website registration: As a user, I can log into the secure area"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.72"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d7005cc102f47168",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614875471108,
+        "stop" : 1614875471134,
+        "duration" : 26
+      }
+    }, {
+      "uid" : "91e1910f3d9f7edd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614875104505,
+        "stop" : 1614875104539,
+        "duration" : 34
+      }
+    }, {
+      "uid" : "59c9c2812a6139f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614874993900,
+        "stop" : 1614874993930,
+        "duration" : 30
+      }
+    }, {
+      "uid" : "ca5ac79744c7f628",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614874641780,
+        "stop" : 1614874641941,
+        "duration" : 161
+      }
+    }, {
+      "uid" : "79fe61a8e28e1d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614865724139,
+        "stop" : 1614865724320,
+        "duration" : 181
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "69e9c89d83fed456.json",
+  "parameterValues" : [ "chrome-89.0.4389.72" ]
+}

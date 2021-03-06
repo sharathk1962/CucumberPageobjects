@@ -1,0 +1,110 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1614875471099' stop='1614875471188'>
+    <name>Automation practice website registration: As a user, I can log into the secure area</name>
+    <title>Automation practice website registration: As a user, I can log into the secure area</title>
+    <test-cases>
+        <test-case start='1614875471101' status='passed' stop='1614875471107'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.72'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1614875471108' status='passed' stop='1614875471134'>
+            <name>Given I am on the home page</name>
+            <title>Given I am on the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.72'/>
+            </parameters>
+            <steps>
+                <step start='1614875471114' status='undefined'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='fa30c3b0-7355-494e-8609-a88a9904c94d-attachment.json' type='application/json' size='54'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1614875471134' status='broken' stop='1614875471165'>
+            <name>When I click on signin button</name>
+            <title>When I click on signin button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.72'/>
+            </parameters>
+            <steps>
+                <step start='1614875471140' status='broken' stop='1614875471164'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f52b4c52-7b7f-49c4-9cf4-2e6cc967219b-attachment.json' type='application/json' size='51'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TypeError: lp.clickonsignin.click is not a function</message>
+                <stack-trace>TypeError: lp.clickonsignin.click is not a function
+                    at World.&lt;anonymous> (C:\Users\SHARATH\cucumber\features\step-definitions\steps.js:12:22)
+                    at World.executeAsync (C:\Users\SHARATH\cucumber\node_modules\@wdio\utils\build\shim.js:137:25)
+                    at World.exports.testFrameworkFnWrapper (C:\Users\SHARATH\cucumber\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:44:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1614875471169' status='broken' stop='1614875471171'>
+            <name>Then it takes me to create account page</name>
+            <title>Then it takes me to create account page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.72'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "it takes me to create account page" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "it takes me to create account page" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\SHARATH\cucumber\features\login.feature):1:1
+                	at Scenario(As a user, I can log into the secure area):3:3
+                	at Step(it takes me to create account page):7:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1614875471171' status='passed' stop='1614875471182'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.72'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,118 @@
+{
+  "uid" : "486c5462d15cba40",
+  "name" : "When you click on the Tshirt and add items to the cart",
+  "fullName" : "Adding item to cart and verify: Add items to the cart.When you click on the Tshirt and add items to the cart",
+  "historyId" : "d47d5876caf78cb4290890f661b65963",
+  "time" : {
+    "start" : 1615021001167,
+    "stop" : 1615021001312,
+    "duration" : 145
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1615021001169,
+        "stop" : 1615021001211,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f38b072ff1a844ff",
+        "name" : "Request",
+        "source" : "f38b072ff1a844ff.json",
+        "type" : "application/json",
+        "size" : 65
+      }, {
+        "uid" : "3ed4b4d144a31edf",
+        "name" : "Response",
+        "source" : "3ed4b4d144a31edf.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/529d0ce3-428b-4917-9940-5e075f92e4cc/click",
+      "time" : {
+        "start" : 1615021001216,
+        "stop" : 1615021001311,
+        "duration" : 95
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Adding item to cart and verify: Add items to the cart"
+  }, {
+    "name" : "testClass",
+    "value" : "Adding item to cart and verify: Add items to the cart"
+  }, {
+    "name" : "testMethod",
+    "value" : "When you click on the Tshirt and add items to the cart"
+  }, {
+    "name" : "package",
+    "value" : "Adding item to cart and verify: Add items to the cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.72"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a7799bc9600ba9f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615020545610,
+        "stop" : 1615020545766,
+        "duration" : 156
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "486c5462d15cba40.json",
+  "parameterValues" : [ "chrome-89.0.4389.72" ]
+}

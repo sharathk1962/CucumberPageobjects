@@ -1,0 +1,181 @@
+{
+  "uid" : "d9b8cacc12c5a0e9",
+  "name" : "Then it takes me to create account page",
+  "fullName" : "Automation practice website registration: Taking me to the account creation page.Then it takes me to create account page",
+  "historyId" : "f1a0ebd109a9bee69a818d090a84d595",
+  "time" : {
+    "start" : 1614942609889,
+    "stop" : 1614942609895,
+    "duration" : 6
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Step \"it takes me to create account page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+  "statusTrace" : "Step \"it takes me to create account page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.\n                \tat Feature(C:\\Users\\SHARATH\\cucumber\\features\\login.feature):1:1\n                \tat Scenario(Taking me to the account creation page):3:3\n                \tat Step(it takes me to create account page):7:5\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation practice website registration: Taking me to the account creation page"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation practice website registration: Taking me to the account creation page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then it takes me to create account page"
+  }, {
+    "name" : "package",
+    "value" : "Automation practice website registration: Taking me to the account creation page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.72"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4abba9d61cec0917",
+      "status" : "broken",
+      "statusDetails" : "Step \"it takes me to create account page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1614889440013,
+        "stop" : 1614889440014,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "da727bbd62cb3cff",
+      "status" : "broken",
+      "statusDetails" : "Step \"it takes me to create account page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1614889013263,
+        "stop" : 1614889013265,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "7204fb79b68cbe32",
+      "status" : "broken",
+      "statusDetails" : "Step \"it takes me to create account page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1614888918763,
+        "stop" : 1614888918764,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "d1bed5e5f7b91ef7",
+      "status" : "broken",
+      "statusDetails" : "Step \"it takes me to create account page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1614880917298,
+        "stop" : 1614880917299,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "53355b1197717ba",
+      "status" : "broken",
+      "statusDetails" : "Step \"it takes me to create account page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1614880722760,
+        "stop" : 1614880722760,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8f8dd0a6bd8d5be4",
+      "status" : "broken",
+      "statusDetails" : "Step \"it takes me to create account page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1614880657220,
+        "stop" : 1614880657221,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a431397fbf4bc8e8",
+      "status" : "broken",
+      "statusDetails" : "Step \"it takes me to create account page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1614880058815,
+        "stop" : 1614880058815,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5280e6a80e0d9146",
+      "status" : "broken",
+      "statusDetails" : "Step \"it takes me to create account page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1614879920134,
+        "stop" : 1614879920134,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "776e92fcc242ed9e",
+      "status" : "broken",
+      "statusDetails" : "Step \"it takes me to create account page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1614879724660,
+        "stop" : 1614879724661,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "92230534cc33d6d7",
+      "status" : "broken",
+      "statusDetails" : "Step \"it takes me to create account page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1614879091010,
+        "stop" : 1614879091011,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "b9d1698a701c967d",
+      "status" : "broken",
+      "statusDetails" : "Step \"it takes me to create account page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1614879045329,
+        "stop" : 1614879045330,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "de8e26feeb32c831",
+      "status" : "broken",
+      "statusDetails" : "Step \"it takes me to create account page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1614876104969,
+        "stop" : 1614876104970,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "dcac6a08a6a25a80",
+      "status" : "broken",
+      "statusDetails" : "Step \"it takes me to create account page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1614875963829,
+        "stop" : 1614875963830,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d9b8cacc12c5a0e9.json",
+  "parameterValues" : [ "chrome-89.0.4389.72" ]
+}

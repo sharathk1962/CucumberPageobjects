@@ -1,0 +1,58 @@
+{
+  "uid" : "531345d52bb7ac46",
+  "name" : "When I click on signin button",
+  "fullName" : "Automation practice website registration: As a user, I can log into the secure area.When I click on signin button",
+  "historyId" : "6832e863a5dc236d674ed2b85c017518",
+  "time" : {
+    "start" : 1614874641941,
+    "stop" : 1614874641962,
+    "duration" : 21
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Step \"I click on signin button\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+  "statusTrace" : "Step \"I click on signin button\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.\n                \tat Feature(C:\\Users\\SHARATH\\cucumber\\features\\login.feature):1:1\n                \tat Scenario(As a user, I can log into the secure area):3:3\n                \tat Step(I click on signin button):6:5\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation practice website registration: As a user, I can log into the secure area"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation practice website registration: As a user, I can log into the secure area"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I click on signin button"
+  }, {
+    "name" : "package",
+    "value" : "Automation practice website registration: As a user, I can log into the secure area"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.72"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "531345d52bb7ac46.json",
+  "parameterValues" : [ "chrome-89.0.4389.72" ]
+}

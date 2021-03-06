@@ -1,0 +1,72 @@
+{
+  "uid" : "2e11026238bac01e",
+  "name" : "Then I should see a flash message saying You logged into a secure area!",
+  "fullName" : "The Internet Guinea Pig Website: As a user, I can log into the secure area.Then I should see a flash message saying You logged into a secure area!",
+  "historyId" : "a9571daa991861a32511e63fb254d2c6",
+  "time" : {
+    "start" : 1614794946383,
+    "stop" : 1614794946384,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Step \"I should see a flash message saying You logged into a secure area!\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+  "statusTrace" : "Step \"I should see a flash message saying You logged into a secure area!\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.\n                \tat Feature(C:\\Users\\SHARATH\\cucumber\\features\\login.feature):1:1\n                \tat Scenario(As a user, I can log into the secure area):3:3\n                \tat Step(I should see a flash message saying <message>):7:5\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "testClass",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should see a flash message saying You logged into a secure area!"
+  }, {
+    "name" : "package",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.182"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "941abaaf76d6570e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614794855586,
+        "stop" : 1614794855785,
+        "duration" : 199
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2e11026238bac01e.json",
+  "parameterValues" : [ "chrome-88.0.4324.182" ]
+}

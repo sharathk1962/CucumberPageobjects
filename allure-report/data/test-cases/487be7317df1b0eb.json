@@ -1,0 +1,109 @@
+{
+  "uid" : "487be7317df1b0eb",
+  "name" : "Then it takes me to create account page",
+  "fullName" : "Automation practice website registration: As a user, I can log into the secure area.Then it takes me to create account page",
+  "historyId" : "4c616ee37072c2182b145d5cd75b8768",
+  "time" : {
+    "start" : 1614875546763,
+    "stop" : 1614875546764,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Step \"it takes me to create account page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+  "statusTrace" : "Step \"it takes me to create account page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.\n                \tat Feature(C:\\Users\\SHARATH\\cucumber\\features\\login.feature):1:1\n                \tat Scenario(As a user, I can log into the secure area):3:3\n                \tat Step(it takes me to create account page):7:5\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation practice website registration: As a user, I can log into the secure area"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation practice website registration: As a user, I can log into the secure area"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then it takes me to create account page"
+  }, {
+    "name" : "package",
+    "value" : "Automation practice website registration: As a user, I can log into the secure area"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.72"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1e75b5e9dfa00920",
+      "status" : "broken",
+      "statusDetails" : "Step \"it takes me to create account page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1614875471169,
+        "stop" : 1614875471171,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "aebe1d73363d584c",
+      "status" : "broken",
+      "statusDetails" : "Step \"it takes me to create account page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1614875104571,
+        "stop" : 1614875104572,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "3e13a07bd24f773f",
+      "status" : "broken",
+      "statusDetails" : "Step \"it takes me to create account page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1614874994024,
+        "stop" : 1614874994024,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c0814394173b24f",
+      "status" : "broken",
+      "statusDetails" : "Step \"it takes me to create account page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1614874641963,
+        "stop" : 1614874641967,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "c8af281c57740ec3",
+      "status" : "broken",
+      "statusDetails" : "Step \"it takes me to create account page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1614865724323,
+        "stop" : 1614865724324,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "487be7317df1b0eb.json",
+  "parameterValues" : [ "chrome-89.0.4389.72" ]
+}

@@ -1,0 +1,118 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1614879045277' stop='1614879045335'>
+    <name>Automation practice website registration: Taking me to the account creation page</name>
+    <title>Automation practice website registration: Taking me to the account creation page</title>
+    <test-cases>
+        <test-case start='1614879045279' status='passed' stop='1614879045283'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.72'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1614879045283' status='broken' stop='1614879045323'>
+            <name>Given I am on the home page</name>
+            <title>Given I am on the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.72'/>
+            </parameters>
+            <steps>
+                <step start='1614879045289' status='broken' stop='1614879045323'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f9db875e-384e-4f65-a96f-9305901db326-attachment.json' type='application/json' size='51'/>
+                    </attachments>
+                    <steps>
+                        <step start='1614879045304' status='broken' stop='1614879045323'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='797614d1-f847-4c6b-aed6-3787da0f45b1-attachment.json' type='application/json' size='45'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TypeError: lp.clickonsignin is not a function</message>
+                <stack-trace>TypeError: lp.clickonsignin is not a function
+                    at World.&lt;anonymous> (C:\Users\SHARATH\cucumber\features\step-definitions\steps.js:10:12)
+                    at World.executeAsync (C:\Users\SHARATH\cucumber\node_modules\@wdio\utils\build\shim.js:137:25)
+                    at World.exports.testFrameworkFnWrapper (C:\Users\SHARATH\cucumber\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:44:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1614879045324' status='broken' stop='1614879045325'>
+            <name>When I click on signin button</name>
+            <title>When I click on signin button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.72'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I click on signin button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I click on signin button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\SHARATH\cucumber\features\login.feature):1:1
+                	at Scenario(Taking me to the account creation page):3:3
+                	at Step(I click on signin button):6:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1614879045329' status='broken' stop='1614879045330'>
+            <name>Then it takes me to create account page</name>
+            <title>Then it takes me to create account page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.72'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "it takes me to create account page" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "it takes me to create account page" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\SHARATH\cucumber\features\login.feature):1:1
+                	at Scenario(Taking me to the account creation page):3:3
+                	at Step(it takes me to create account page):7:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1614879045331' status='passed' stop='1614879045334'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.72'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,87 @@
+{
+  "uid" : "53575ae752041f2e",
+  "name" : "Given I am on the home page",
+  "fullName" : "Automation practice website registration: As a user, I can log into the secure area.Given I am on the home page",
+  "historyId" : "32398ba19e5ffc11cc4a65d6b79ee6",
+  "time" : {
+    "start" : 1614842284158,
+    "stop" : 1614842292291,
+    "duration" : 8133
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1614842284176,
+        "stop" : 1614842292288,
+        "duration" : 8112
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cc629f193dac3edf",
+        "name" : "Request",
+        "source" : "cc629f193dac3edf.json",
+        "type" : "application/json",
+        "size" : 45
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation practice website registration: As a user, I can log into the secure area"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation practice website registration: As a user, I can log into the secure area"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am on the home page"
+  }, {
+    "name" : "package",
+    "value" : "Automation practice website registration: As a user, I can log into the secure area"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.182"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "53575ae752041f2e.json",
+  "parameterValues" : [ "chrome-88.0.4324.182" ]
+}

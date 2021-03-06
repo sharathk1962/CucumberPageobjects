@@ -1,0 +1,105 @@
+{
+  "uid" : "8e413ef5d7862813",
+  "name" : "Given I am on the home page",
+  "fullName" : "Automation practice website registration: As a user, I can log into the secure area.Given I am on the home page",
+  "historyId" : "32398ba19e5ffc11cc4a65d6b79ee6",
+  "time" : {
+    "start" : 1614861006703,
+    "stop" : 1614861016382,
+    "duration" : 9679
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1614861006712,
+        "stop" : 1614861016379,
+        "duration" : 9667
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f0dc83ff4618c6f2",
+        "name" : "Request",
+        "source" : "f0dc83ff4618c6f2.json",
+        "type" : "application/json",
+        "size" : 45
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation practice website registration: As a user, I can log into the secure area"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation practice website registration: As a user, I can log into the secure area"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am on the home page"
+  }, {
+    "name" : "package",
+    "value" : "Automation practice website registration: As a user, I can log into the secure area"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.182"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b369d7b76ead2418",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614860858546,
+        "stop" : 1614860868879,
+        "duration" : 10333
+      }
+    }, {
+      "uid" : "53575ae752041f2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614842284158,
+        "stop" : 1614842292291,
+        "duration" : 8133
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8e413ef5d7862813.json",
+  "parameterValues" : [ "chrome-88.0.4324.182" ]
+}

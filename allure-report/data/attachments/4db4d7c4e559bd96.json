@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "#center_column > ul > li > div > div.left-block > div > a.product_img_link > img"
+}

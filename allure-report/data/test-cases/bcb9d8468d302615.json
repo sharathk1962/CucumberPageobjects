@@ -1,0 +1,146 @@
+{
+  "uid" : "bcb9d8468d302615",
+  "name" : "",
+  "fullName" : "Automation practice website registration: As a user, I can log into the secure area.",
+  "historyId" : "857438b7336dd0e4f0ac18eeff2d0eac",
+  "time" : {
+    "start" : 1614875546764,
+    "stop" : 1614875546767,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation practice website registration: As a user, I can log into the secure area"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation practice website registration: As a user, I can log into the secure area"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "Automation practice website registration: As a user, I can log into the secure area"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.72"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "31b9c9750b3fdd44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614875546706,
+        "stop" : 1614875546713,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "75332a5f5a5b48b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614875471171,
+        "stop" : 1614875471182,
+        "duration" : 11
+      }
+    }, {
+      "uid" : "df8d05ede9b9a3b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614875471101,
+        "stop" : 1614875471107,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "88d7babfcde42971",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614875104576,
+        "stop" : 1614875104579,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "4fa1edb6e8862038",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614875104498,
+        "stop" : 1614875104504,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "48fc5b9f96ce4551",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614874994024,
+        "stop" : 1614874994026,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "bb7fabde3eaca899",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614874993893,
+        "stop" : 1614874993900,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "f1fdabe245042cf5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614874641967,
+        "stop" : 1614874641968,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "d388f456d07dc214",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614874641769,
+        "stop" : 1614874641779,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "ebd480dc5394bf28",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614865724324,
+        "stop" : 1614865724326,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "f745055c9729065e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614865724132,
+        "stop" : 1614865724139,
+        "duration" : 7
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bcb9d8468d302615.json",
+  "parameterValues" : [ "chrome-89.0.4389.72" ]
+}

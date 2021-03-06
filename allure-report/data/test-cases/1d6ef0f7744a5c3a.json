@@ -1,0 +1,244 @@
+{
+  "uid" : "1d6ef0f7744a5c3a",
+  "name" : "Given I am on the home page",
+  "fullName" : "Automation practice website registration: Taking me to the account creation page.Given I am on the home page",
+  "historyId" : "6f9801b174a542d4c3e7b03d5d7fbbc4",
+  "time" : {
+    "start" : 1615020946161,
+    "stop" : 1615020956479,
+    "duration" : 10318
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1615020946165,
+        "stop" : 1615020952320,
+        "duration" : 6155
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b3520b4021fd6477",
+        "name" : "Request",
+        "source" : "b3520b4021fd6477.json",
+        "type" : "application/json",
+        "size" : 45
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1615020952321,
+        "stop" : 1615020952474,
+        "duration" : 153
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b0645e6fdc6422a8",
+        "name" : "Response",
+        "source" : "b0645e6fdc6422a8.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation practice website registration: Taking me to the account creation page"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation practice website registration: Taking me to the account creation page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am on the home page"
+  }, {
+    "name" : "package",
+    "value" : "Automation practice website registration: Taking me to the account creation page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.72"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "919d417ce5fe3a7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615020490559,
+        "stop" : 1615020501431,
+        "duration" : 10872
+      }
+    }, {
+      "uid" : "81729990f7dfb7f5",
+      "status" : "broken",
+      "statusDetails" : "TypeError: lp.clickonsignin.click is not a function",
+      "time" : {
+        "start" : 1614942608877,
+        "stop" : 1614942609886,
+        "duration" : 1009
+      }
+    }, {
+      "uid" : "45406ccbf6724c3b",
+      "status" : "broken",
+      "statusDetails" : "TypeError: lp.clickonsignin.click is not a function",
+      "time" : {
+        "start" : 1614889439842,
+        "stop" : 1614889440012,
+        "duration" : 170
+      }
+    }, {
+      "uid" : "8914b913bc5964bb",
+      "status" : "broken",
+      "statusDetails" : "TypeError: lp.clickonsignin.click is not a function",
+      "time" : {
+        "start" : 1614889013147,
+        "stop" : 1614889013259,
+        "duration" : 112
+      }
+    }, {
+      "uid" : "c78d3792e63aaa48",
+      "status" : "broken",
+      "statusDetails" : "TypeError: lp.clickonsignin.click is not a function",
+      "time" : {
+        "start" : 1614888918601,
+        "stop" : 1614888918762,
+        "duration" : 161
+      }
+    }, {
+      "uid" : "bc9bd7babcccac25",
+      "status" : "broken",
+      "statusDetails" : "TypeError: lp.clickonsignin is not a function",
+      "time" : {
+        "start" : 1614880917047,
+        "stop" : 1614880917295,
+        "duration" : 248
+      }
+    }, {
+      "uid" : "a4640dd290e1efa1",
+      "status" : "broken",
+      "statusDetails" : "TypeError: lp.clickonsignin.click is not a function",
+      "time" : {
+        "start" : 1614880722518,
+        "stop" : 1614880722756,
+        "duration" : 238
+      }
+    }, {
+      "uid" : "5033e9138dae828b",
+      "status" : "broken",
+      "statusDetails" : "TypeError: lp.clickonsignin is not a function",
+      "time" : {
+        "start" : 1614880657088,
+        "stop" : 1614880657218,
+        "duration" : 130
+      }
+    }, {
+      "uid" : "d53f4dc97140dc1e",
+      "status" : "broken",
+      "statusDetails" : "TypeError: lp.clickonsignin.click is not a function",
+      "time" : {
+        "start" : 1614880058756,
+        "stop" : 1614880058812,
+        "duration" : 56
+      }
+    }, {
+      "uid" : "c2745995e273ce48",
+      "status" : "broken",
+      "statusDetails" : "TypeError: lp.clickonsignin is not a function",
+      "time" : {
+        "start" : 1614879920075,
+        "stop" : 1614879920131,
+        "duration" : 56
+      }
+    }, {
+      "uid" : "9981b10b1da00bc4",
+      "status" : "broken",
+      "statusDetails" : "TypeError: lp.clickonsignin is not a function",
+      "time" : {
+        "start" : 1614879724579,
+        "stop" : 1614879724658,
+        "duration" : 79
+      }
+    }, {
+      "uid" : "115881faf0e81732",
+      "status" : "broken",
+      "statusDetails" : "TypeError: lp.clickonsignin is not a function",
+      "time" : {
+        "start" : 1614879090959,
+        "stop" : 1614879091009,
+        "duration" : 50
+      }
+    }, {
+      "uid" : "a5ae2a16e3be6977",
+      "status" : "broken",
+      "statusDetails" : "TypeError: lp.clickonsignin is not a function",
+      "time" : {
+        "start" : 1614879045283,
+        "stop" : 1614879045323,
+        "duration" : 40
+      }
+    }, {
+      "uid" : "9cfb506e1349b8bd",
+      "status" : "broken",
+      "statusDetails" : "TypeError: lp.clickonsignin is not a function",
+      "time" : {
+        "start" : 1614876104911,
+        "stop" : 1614876104966,
+        "duration" : 55
+      }
+    }, {
+      "uid" : "cbde22aa90b418f2",
+      "status" : "broken",
+      "statusDetails" : "TypeError: lp.clickonsignin is not a function",
+      "time" : {
+        "start" : 1614875963749,
+        "stop" : 1614875963828,
+        "duration" : 79
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1d6ef0f7744a5c3a.json",
+  "parameterValues" : [ "chrome-89.0.4389.72" ]
+}

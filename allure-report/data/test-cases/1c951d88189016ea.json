@@ -1,0 +1,118 @@
+{
+  "uid" : "1c951d88189016ea",
+  "name" : "Given I am on the home page for cart items",
+  "fullName" : "Adding item to cart and verify: Add items to the cart.Given I am on the home page for cart items",
+  "historyId" : "9567d5df66e4481cc5687d4b349d9711",
+  "time" : {
+    "start" : 1615020988692,
+    "stop" : 1615020995466,
+    "duration" : 6774
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1615020988700,
+        "stop" : 1615020995299,
+        "duration" : 6599
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "22ccd62c6cdc290f",
+        "name" : "Request",
+        "source" : "22ccd62c6cdc290f.json",
+        "type" : "application/json",
+        "size" : 45
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1615020995300,
+        "stop" : 1615020995463,
+        "duration" : 163
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d546fe7169173808",
+        "name" : "Response",
+        "source" : "d546fe7169173808.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Adding item to cart and verify: Add items to the cart"
+  }, {
+    "name" : "testClass",
+    "value" : "Adding item to cart and verify: Add items to the cart"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am on the home page for cart items"
+  }, {
+    "name" : "package",
+    "value" : "Adding item to cart and verify: Add items to the cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.72"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7f626c814c1f0eea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615020533261,
+        "stop" : 1615020541173,
+        "duration" : 7912
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1c951d88189016ea.json",
+  "parameterValues" : [ "chrome-89.0.4389.72" ]
+}

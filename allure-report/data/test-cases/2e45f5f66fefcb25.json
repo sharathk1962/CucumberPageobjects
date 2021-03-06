@@ -1,0 +1,108 @@
+{
+  "uid" : "2e45f5f66fefcb25",
+  "name" : "When I click on signin button",
+  "fullName" : "Automation practice website registration: Taking me to the account creation page.When I click on signin button",
+  "historyId" : "516517deffc2c5fac55542b656ab33a0",
+  "time" : {
+    "start" : 1615020501431,
+    "stop" : 1615020508856,
+    "duration" : 7425
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1615020501434,
+        "stop" : 1615020501466,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eedd4250d4d6d100",
+        "name" : "Request",
+        "source" : "eedd4250d4d6d100.json",
+        "type" : "application/json",
+        "size" : 51
+      }, {
+        "uid" : "de81fa7c4c03e3a1",
+        "name" : "Response",
+        "source" : "de81fa7c4c03e3a1.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/56566927-5437-467c-920f-96d454fb9ea4/click",
+      "time" : {
+        "start" : 1615020501476,
+        "stop" : 1615020504848,
+        "duration" : 3372
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation practice website registration: Taking me to the account creation page"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation practice website registration: Taking me to the account creation page"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I click on signin button"
+  }, {
+    "name" : "package",
+    "value" : "Automation practice website registration: Taking me to the account creation page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.72"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2e45f5f66fefcb25.json",
+  "parameterValues" : [ "chrome-89.0.4389.72" ]
+}

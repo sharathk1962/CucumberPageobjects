@@ -1,0 +1,151 @@
+{
+  "uid" : "44090003d9cf5d1f",
+  "name" : "Then I am landed on create account page",
+  "fullName" : "Automation practice website registration: Taking me to the account creation page.Then I am landed on create account page",
+  "historyId" : "7bf44d399f0e5923c61e52c9a6d6b8ff",
+  "time" : {
+    "start" : 1615020962900,
+    "stop" : 1615020963006,
+    "duration" : 106
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1615020962904,
+        "stop" : 1615020962943,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d4ba2392e918dc46",
+        "name" : "Request",
+        "source" : "d4ba2392e918dc46.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "6217a26da607334d",
+        "name" : "Response",
+        "source" : "6217a26da607334d.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/element/3b0d099b-b99f-4ed5-828e-dc010577e9f5/text",
+      "time" : {
+        "start" : 1615020962951,
+        "stop" : 1615020962981,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4b125832256659a6",
+        "name" : "Response",
+        "source" : "4b125832256659a6.json",
+        "type" : "application/json",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1615020962983,
+        "stop" : 1615020963002,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a4df933252a7e4e1",
+        "name" : "Request",
+        "source" : "a4df933252a7e4e1.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "cba4570099b131d5",
+        "name" : "Response",
+        "source" : "cba4570099b131d5.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation practice website registration: Taking me to the account creation page"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation practice website registration: Taking me to the account creation page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I am landed on create account page"
+  }, {
+    "name" : "package",
+    "value" : "Automation practice website registration: Taking me to the account creation page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.72"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9c49237f19f6ca75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615020508856,
+        "stop" : 1615020508959,
+        "duration" : 103
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "44090003d9cf5d1f.json",
+  "parameterValues" : [ "chrome-89.0.4389.72" ]
+}

@@ -1,4 +1,13 @@
 exports.config = {
+
+        // ...
+        reporters: [['allure', {
+            outputDir: 'allure-results',
+            disableWebdriverStepsReporting: true,
+            disableWebdriverScreenshotsReporting: true,
+        }]],
+        // ...
+    
     //
     // ====================
     // Runner Configuration
@@ -17,8 +26,12 @@ exports.config = {
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
     specs: [
-        './features/**/*.feature'
+        './features/**/login.feature',
+     './features/**/cart.feature'
     ],
+     
+        
+    
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
@@ -39,7 +52,7 @@ exports.config = {
     // and 30 processes will get spawned. The property handles how many capabilities
     // from the same test should run tests.
     //
-    maxInstances: 10,
+    maxInstances: 1,
     //
     // If you have trouble getting all important capabilities together, check out the
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
@@ -135,7 +148,11 @@ exports.config = {
     // If you are using Cucumber you need to specify the location of your step definitions.
     cucumberOpts: {
         // <string[]> (file/dir) require files before executing features
-        require: ['./features/step-definitions/steps.js'],
+        require: [
+            './features/step-definitions/login.js',
+            './features/step-definitions/cart.js'
+    ],
+     //   require: ['./features/step-definitions/cart.js'],
         // <boolean> show full backtrace for errors
         backtrace: false,
         // <string[]> ("extension:module") require files with the given EXTENSION after requiring MODULE (repeatable)

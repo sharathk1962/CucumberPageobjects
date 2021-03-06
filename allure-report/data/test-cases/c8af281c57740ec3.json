@@ -1,0 +1,58 @@
+{
+  "uid" : "c8af281c57740ec3",
+  "name" : "Then it takes me to create account page",
+  "fullName" : "Automation practice website registration: As a user, I can log into the secure area.Then it takes me to create account page",
+  "historyId" : "4c616ee37072c2182b145d5cd75b8768",
+  "time" : {
+    "start" : 1614865724323,
+    "stop" : 1614865724324,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Step \"it takes me to create account page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+  "statusTrace" : "Step \"it takes me to create account page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.\n                \tat Feature(C:\\Users\\SHARATH\\cucumber\\features\\login.feature):1:1\n                \tat Scenario(As a user, I can log into the secure area):3:3\n                \tat Step(it takes me to create account page):7:5\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation practice website registration: As a user, I can log into the secure area"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation practice website registration: As a user, I can log into the secure area"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then it takes me to create account page"
+  }, {
+    "name" : "package",
+    "value" : "Automation practice website registration: As a user, I can log into the secure area"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.72"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c8af281c57740ec3.json",
+  "parameterValues" : [ "chrome-89.0.4389.72" ]
+}

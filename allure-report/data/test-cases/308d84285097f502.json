@@ -1,0 +1,114 @@
+{
+  "uid" : "308d84285097f502",
+  "name" : "",
+  "fullName" : "The Internet Guinea Pig Website: As a user, I can log into the secure area.",
+  "historyId" : "7922eeac8805ea8f56f243ddd8aa84dd",
+  "time" : {
+    "start" : 1614794946479,
+    "stop" : 1614794946480,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "testClass",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.182"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "974c90d1c14561af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614794946474,
+        "stop" : 1614794946476,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "443da3d757d836ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614794946384,
+        "stop" : 1614794946385,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "e3bc4f1c0f168be8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614794946369,
+        "stop" : 1614794946375,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "310184f1d17fe572",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614794857848,
+        "stop" : 1614794857849,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "860f0a2f260903c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614794855822,
+        "stop" : 1614794855827,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "cb5d363c88e624ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614794855785,
+        "stop" : 1614794855786,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "4617a6a9e27517e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614794848906,
+        "stop" : 1614794848913,
+        "duration" : 7
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "308d84285097f502.json",
+  "parameterValues" : [ "chrome-88.0.4324.182" ]
+}

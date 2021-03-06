@@ -1,0 +1,143 @@
+{
+  "uid" : "97d9a53bcd943036",
+  "name" : "When I click on signin button",
+  "fullName" : "Automation practice website registration: As a user, I can log into the secure area.When I click on signin button",
+  "historyId" : "6832e863a5dc236d674ed2b85c017518",
+  "time" : {
+    "start" : 1614875546737,
+    "stop" : 1614875546763,
+    "duration" : 26
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TypeError: lp.clickonsignin is not a function",
+  "statusTrace" : "TypeError: lp.clickonsignin is not a function\n                    at World.<anonymous> (C:\\Users\\SHARATH\\cucumber\\features\\step-definitions\\steps.js:12:8)\n                    at World.executeAsync (C:\\Users\\SHARATH\\cucumber\\node_modules\\@wdio\\utils\\build\\shim.js:137:25)\n                    at World.exports.testFrameworkFnWrapper (C:\\Users\\SHARATH\\cucumber\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:44:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: lp.clickonsignin is not a function",
+    "statusTrace" : "TypeError: lp.clickonsignin is not a function\n                    at World.<anonymous> (C:\\Users\\SHARATH\\cucumber\\features\\step-definitions\\steps.js:12:8)\n                    at World.executeAsync (C:\\Users\\SHARATH\\cucumber\\node_modules\\@wdio\\utils\\build\\shim.js:137:25)\n                    at World.exports.testFrameworkFnWrapper (C:\\Users\\SHARATH\\cucumber\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:44:32)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1614875546743,
+        "stop" : 1614875546762,
+        "duration" : 19
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: lp.clickonsignin is not a function\n                    at World.<anonymous> (C:\\Users\\SHARATH\\cucumber\\features\\step-definitions\\steps.js:12:8)\n                    at World.executeAsync (C:\\Users\\SHARATH\\cucumber\\node_modules\\@wdio\\utils\\build\\shim.js:137:25)\n                    at World.exports.testFrameworkFnWrapper (C:\\Users\\SHARATH\\cucumber\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:44:32)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "44982f46695e5537",
+        "name" : "Request",
+        "source" : "44982f46695e5537.json",
+        "type" : "application/json",
+        "size" : 51
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation practice website registration: As a user, I can log into the secure area"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation practice website registration: As a user, I can log into the secure area"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I click on signin button"
+  }, {
+    "name" : "package",
+    "value" : "Automation practice website registration: As a user, I can log into the secure area"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.72"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c568f2da50d38418",
+      "status" : "broken",
+      "statusDetails" : "TypeError: lp.clickonsignin.click is not a function",
+      "time" : {
+        "start" : 1614875471134,
+        "stop" : 1614875471165,
+        "duration" : 31
+      }
+    }, {
+      "uid" : "c05090c67b93df94",
+      "status" : "broken",
+      "statusDetails" : "TypeError: landingpage.clickonsignin.click is not a function",
+      "time" : {
+        "start" : 1614875104539,
+        "stop" : 1614875104570,
+        "duration" : 31
+      }
+    }, {
+      "uid" : "52e10a15d2380559",
+      "status" : "broken",
+      "statusDetails" : "TypeError: LandingPage.clickonsignin.click is not a function",
+      "time" : {
+        "start" : 1614874993931,
+        "stop" : 1614874994023,
+        "duration" : 92
+      }
+    }, {
+      "uid" : "531345d52bb7ac46",
+      "status" : "broken",
+      "statusDetails" : "Step \"I click on signin button\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1614874641941,
+        "stop" : 1614874641962,
+        "duration" : 21
+      }
+    }, {
+      "uid" : "efca9c84ba3a7c13",
+      "status" : "broken",
+      "statusDetails" : "Step \"I click on signin button\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1614865724321,
+        "stop" : 1614865724322,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "97d9a53bcd943036.json",
+  "parameterValues" : [ "chrome-89.0.4389.72" ]
+}

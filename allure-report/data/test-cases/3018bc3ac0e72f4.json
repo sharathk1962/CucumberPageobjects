@@ -1,0 +1,151 @@
+{
+  "uid" : "3018bc3ac0e72f4",
+  "name" : "Then added Tshirts will be appear on the payment page and verify the same",
+  "fullName" : "Adding item to cart and verify: Add items to the cart.Then added Tshirts will be appear on the payment page and verify the same",
+  "historyId" : "94dc212af1894924d60fc574a9292c05",
+  "time" : {
+    "start" : 1615021007646,
+    "stop" : 1615021007760,
+    "duration" : 114
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1615021007647,
+        "stop" : 1615021007679,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8bd6d55b2e78760d",
+        "name" : "Request",
+        "source" : "8bd6d55b2e78760d.json",
+        "type" : "application/json",
+        "size" : 71
+      }, {
+        "uid" : "5da7e0b6a89842d2",
+        "name" : "Response",
+        "source" : "5da7e0b6a89842d2.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/element/142326fa-78d1-475f-a36a-7622e4ca505e/text",
+      "time" : {
+        "start" : 1615021007690,
+        "stop" : 1615021007723,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c5bbc1b5411c0044",
+        "name" : "Response",
+        "source" : "c5bbc1b5411c0044.json",
+        "type" : "application/json",
+        "size" : 29
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1615021007725,
+        "stop" : 1615021007753,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "763aa3046440b6a5",
+        "name" : "Request",
+        "source" : "763aa3046440b6a5.json",
+        "type" : "application/json",
+        "size" : 71
+      }, {
+        "uid" : "90f924f0852df964",
+        "name" : "Response",
+        "source" : "90f924f0852df964.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Adding item to cart and verify: Add items to the cart"
+  }, {
+    "name" : "testClass",
+    "value" : "Adding item to cart and verify: Add items to the cart"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then added Tshirts will be appear on the payment page and verify the same"
+  }, {
+    "name" : "package",
+    "value" : "Adding item to cart and verify: Add items to the cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.72"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "654e27535c217808",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615020551909,
+        "stop" : 1615020552037,
+        "duration" : 128
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3018bc3ac0e72f4.json",
+  "parameterValues" : [ "chrome-89.0.4389.72" ]
+}

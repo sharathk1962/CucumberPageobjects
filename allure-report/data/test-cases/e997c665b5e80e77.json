@@ -1,0 +1,118 @@
+{
+  "uid" : "e997c665b5e80e77",
+  "name" : "When you click on proceed to checkout",
+  "fullName" : "Adding item to cart and verify: Add items to the cart.When you click on proceed to checkout",
+  "historyId" : "181e7899aa84384312dae72701dce833",
+  "time" : {
+    "start" : 1615021005324,
+    "stop" : 1615021007646,
+    "duration" : 2322
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1615021005325,
+        "stop" : 1615021005358,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7785ecfbfb2693b",
+        "name" : "Request",
+        "source" : "7785ecfbfb2693b.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "64cca2e720769101",
+        "name" : "Response",
+        "source" : "64cca2e720769101.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/39c04508-1c4d-42c2-a331-03357c75f1a8/click",
+      "time" : {
+        "start" : 1615021005365,
+        "stop" : 1615021007645,
+        "duration" : 2280
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Adding item to cart and verify: Add items to the cart"
+  }, {
+    "name" : "testClass",
+    "value" : "Adding item to cart and verify: Add items to the cart"
+  }, {
+    "name" : "testMethod",
+    "value" : "When you click on proceed to checkout"
+  }, {
+    "name" : "package",
+    "value" : "Adding item to cart and verify: Add items to the cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.72"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5ebff0e34548839f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615020549779,
+        "stop" : 1615020551909,
+        "duration" : 2130
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e997c665b5e80e77.json",
+  "parameterValues" : [ "chrome-89.0.4389.72" ]
+}

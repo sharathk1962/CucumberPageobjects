@@ -1,0 +1,381 @@
+[ {
+  "uid" : "dfcff7a7cd9754f5",
+  "name" : "Then account registration page opened",
+  "time" : {
+    "start" : 1615020963362,
+    "stop" : 1615020968486,
+    "duration" : 5124
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b84fce00b3a3f67",
+  "name" : "When I login with foobar and barfoo",
+  "time" : {
+    "start" : 1614837068193,
+    "stop" : 1614837068463,
+    "duration" : 270
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bcb9d8468d302615",
+  "name" : "",
+  "time" : {
+    "start" : 1614875546764,
+    "stop" : 1614875546767,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43f57e107e72e2dc",
+  "name" : "When you enter all the details and click on register",
+  "time" : {
+    "start" : 1615020968486,
+    "stop" : 1615020977691,
+    "duration" : 9205
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9465ec7f447b5600",
+  "name" : "Then Tshirts window will be opened",
+  "time" : {
+    "start" : 1615020998266,
+    "stop" : 1615021001167,
+    "duration" : 2901
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d1a9a2a9ed175f27",
+  "name" : "Given I am on the login page",
+  "time" : {
+    "start" : 1614837067821,
+    "stop" : 1614837068193,
+    "duration" : 372
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "12c29e0368a7c5e",
+  "name" : "Then account will be registered and verified logged in user",
+  "time" : {
+    "start" : 1615020977691,
+    "stop" : 1615020982824,
+    "duration" : 5133
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1df44a4fe939cc36",
+  "name" : "When I click on signin button",
+  "time" : {
+    "start" : 1614861016382,
+    "stop" : 1614861016383,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e997c665b5e80e77",
+  "name" : "When you click on proceed to checkout",
+  "time" : {
+    "start" : 1615021005324,
+    "stop" : 1615021007646,
+    "duration" : 2322
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8208aa5ac25ec6d",
+  "name" : "When I click on search and enter Tshirt",
+  "time" : {
+    "start" : 1615020995466,
+    "stop" : 1615020998266,
+    "duration" : 2800
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c951d88189016ea",
+  "name" : "Given I am on the home page for cart items",
+  "time" : {
+    "start" : 1615020988692,
+    "stop" : 1615020995466,
+    "duration" : 6774
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "636376a2ca9c6ecb",
+  "name" : "Then I should see a flash message saying You logged into a secure area!",
+  "time" : {
+    "start" : 1614837066741,
+    "stop" : 1614837067776,
+    "duration" : 1035
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "308d84285097f502",
+  "name" : "",
+  "time" : {
+    "start" : 1614794946479,
+    "stop" : 1614794946480,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba1c19b48a40a287",
+  "name" : "",
+  "time" : {
+    "start" : 1614861016384,
+    "stop" : 1614861016385,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4a0a55364305d50",
+  "name" : "When I login with foobar and barfoo",
+  "time" : {
+    "start" : 1614794946477,
+    "stop" : 1614794946478,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2906727369b49901",
+  "name" : "When you enter email id and click on create account",
+  "time" : {
+    "start" : 1615020963006,
+    "stop" : 1615020963362,
+    "duration" : 356
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9b8cacc12c5a0e9",
+  "name" : "Then it takes me to create account page",
+  "time" : {
+    "start" : 1614942609889,
+    "stop" : 1614942609895,
+    "duration" : 6
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "44090003d9cf5d1f",
+  "name" : "Then I am landed on create account page",
+  "time" : {
+    "start" : 1615020962900,
+    "stop" : 1615020963006,
+    "duration" : 106
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69e9c89d83fed456",
+  "name" : "Given I am on the home page",
+  "time" : {
+    "start" : 1614875546714,
+    "stop" : 1614875546737,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10244f83f9018ea2",
+  "name" : "",
+  "time" : {
+    "start" : 1615021007761,
+    "stop" : 1615021007762,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7acbedc4d117dceb",
+  "name" : "",
+  "time" : {
+    "start" : 1614837069630,
+    "stop" : 1614837069631,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "487be7317df1b0eb",
+  "name" : "Then it takes me to create account page",
+  "time" : {
+    "start" : 1614875546763,
+    "stop" : 1614875546764,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5c27c06052c05352",
+  "name" : "When I login with tomsmith and SuperSecretPassword!",
+  "time" : {
+    "start" : 1614837066358,
+    "stop" : 1614837066740,
+    "duration" : 382
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2107c8d3c7b7ea",
+  "name" : "When I click on signin button",
+  "time" : {
+    "start" : 1615020956479,
+    "stop" : 1615020962900,
+    "duration" : 6421
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "376b31e140dcf56b",
+  "name" : "Then I should see a flash message saying Your username is invalid!",
+  "time" : {
+    "start" : 1614794946478,
+    "stop" : 1614794946479,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "486c5462d15cba40",
+  "name" : "When you click on the Tshirt and add items to the cart",
+  "time" : {
+    "start" : 1615021001167,
+    "stop" : 1615021001312,
+    "duration" : 145
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e413ef5d7862813",
+  "name" : "Given I am on the home page",
+  "time" : {
+    "start" : 1614861006703,
+    "stop" : 1614861016382,
+    "duration" : 9679
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "127321ae7e860c39",
+  "name" : "When I login with tomsmith and SuperSecretPassword!",
+  "time" : {
+    "start" : 1614794946382,
+    "stop" : 1614794946383,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6fc0e552c3a54bce",
+  "name" : "Then it takes me to create account page",
+  "time" : {
+    "start" : 1614861016384,
+    "stop" : 1614861016384,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "75cec48520efca7d",
+  "name" : "Then I should see a flash message saying Your username is invalid!",
+  "time" : {
+    "start" : 1614837068463,
+    "stop" : 1614837069630,
+    "duration" : 1167
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3018bc3ac0e72f4",
+  "name" : "Then added Tshirts will be appear on the payment page and verify the same",
+  "time" : {
+    "start" : 1615021007646,
+    "stop" : 1615021007760,
+    "duration" : 114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd19b534226e0ec5",
+  "name" : "Given I click on signin button",
+  "time" : {
+    "start" : 1614880917297,
+    "stop" : 1614880917298,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1d6ef0f7744a5c3a",
+  "name" : "Given I am on the home page",
+  "time" : {
+    "start" : 1615020946161,
+    "stop" : 1615020956479,
+    "duration" : 10318
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e11026238bac01e",
+  "name" : "Then I should see a flash message saying You logged into a secure area!",
+  "time" : {
+    "start" : 1614794946383,
+    "stop" : 1614794946384,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "97d9a53bcd943036",
+  "name" : "When I click on signin button",
+  "time" : {
+    "start" : 1614875546737,
+    "stop" : 1614875546763,
+    "duration" : 26
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4235d245a7ed9de1",
+  "name" : "Given I am on the login page",
+  "time" : {
+    "start" : 1614794946476,
+    "stop" : 1614794946477,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9355d9172bc92d24",
+  "name" : "",
+  "time" : {
+    "start" : 1615020982824,
+    "stop" : 1615020982825,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd57eb19ea4dc6fa",
+  "name" : "Then tshirt will be added to the cart",
+  "time" : {
+    "start" : 1615021001312,
+    "stop" : 1615021005322,
+    "duration" : 4010
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

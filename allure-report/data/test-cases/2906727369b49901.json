@@ -1,0 +1,181 @@
+{
+  "uid" : "2906727369b49901",
+  "name" : "When you enter email id and click on create account",
+  "fullName" : "Automation practice website registration: Taking me to the account creation page.When you enter email id and click on create account",
+  "historyId" : "c5a68b2e1e564c6ba7f8ec9081d28980",
+  "time" : {
+    "start" : 1615020963006,
+    "stop" : 1615020963362,
+    "duration" : 356
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1615020963007,
+        "stop" : 1615020963034,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c03a431ee9ba53",
+        "name" : "Request",
+        "source" : "c03a431ee9ba53.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "b1a2e2e5b6cf4804",
+        "name" : "Response",
+        "source" : "b1a2e2e5b6cf4804.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/8906a08c-5595-4d1a-beeb-e2059dd17334/click",
+      "time" : {
+        "start" : 1615020963039,
+        "stop" : 1615020963138,
+        "duration" : 99
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1615020963139,
+        "stop" : 1615020963171,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f7866aa63b2a644d",
+        "name" : "Request",
+        "source" : "f7866aa63b2a644d.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "ce09b7a64bb52a4f",
+        "name" : "Response",
+        "source" : "ce09b7a64bb52a4f.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/8906a08c-5595-4d1a-beeb-e2059dd17334/clear",
+      "time" : {
+        "start" : 1615020963178,
+        "stop" : 1615020963234,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/8906a08c-5595-4d1a-beeb-e2059dd17334/value",
+      "time" : {
+        "start" : 1615020963240,
+        "stop" : 1615020963361,
+        "duration" : 121
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4e75177044a6221e",
+        "name" : "Request",
+        "source" : "4e75177044a6221e.json",
+        "type" : "application/json",
+        "size" : 35
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation practice website registration: Taking me to the account creation page"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation practice website registration: Taking me to the account creation page"
+  }, {
+    "name" : "testMethod",
+    "value" : "When you enter email id and click on create account"
+  }, {
+    "name" : "package",
+    "value" : "Automation practice website registration: Taking me to the account creation page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.72"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "854a9631bfb778c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615020508959,
+        "stop" : 1615020509314,
+        "duration" : 355
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2906727369b49901.json",
+  "parameterValues" : [ "chrome-89.0.4389.72" ]
+}

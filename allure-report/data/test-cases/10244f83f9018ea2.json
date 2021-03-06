@@ -1,0 +1,82 @@
+{
+  "uid" : "10244f83f9018ea2",
+  "name" : "",
+  "fullName" : "Adding item to cart and verify: Add items to the cart.",
+  "historyId" : "96ced5759135152e61197a1c1a9d763e",
+  "time" : {
+    "start" : 1615021007761,
+    "stop" : 1615021007762,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Adding item to cart and verify: Add items to the cart"
+  }, {
+    "name" : "testClass",
+    "value" : "Adding item to cart and verify: Add items to the cart"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "Adding item to cart and verify: Add items to the cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.72"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b111b819b98169f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615020988684,
+        "stop" : 1615020988691,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "acb633a6672c15cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615020552037,
+        "stop" : 1615020552038,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f953b4ec1af0d573",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615020533257,
+        "stop" : 1615020533260,
+        "duration" : 3
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "10244f83f9018ea2.json",
+  "parameterValues" : [ "chrome-89.0.4389.72" ]
+}
